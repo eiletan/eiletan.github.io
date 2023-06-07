@@ -7,8 +7,11 @@ import '../css/Card.css';
 export default function Card(props) {
     return (
         <div className={props.classname ? `cardContainer ${props.classname}` : "cardContainer"}>
-            {props.title && 
-                <p className="cardTitle">{props.title}</p>    
+            {props.title &&
+                <div className="cardflexitem title">
+                    <p className="cardTitle text">{props.title}</p>
+                </div> 
+                    
             }
             
             {props.content ? props.content : "No content available"}
