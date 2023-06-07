@@ -1,0 +1,12 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: 2.5px 5px gray
+}
+
