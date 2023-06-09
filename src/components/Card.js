@@ -6,7 +6,7 @@ import '../css/Card.css';
 
 export default function Card(props) {
     return (
-        <div className={props.classname ? `cardContainer ${props.classname}` : "cardContainer"}>
+        <div className={props.cname ? `cardContainer ${props.cname}` : "cardContainer"}>
             {props.title &&
                 <div className="cardflexitem title">
                     <p className="cardTitle text">{props.title}</p>

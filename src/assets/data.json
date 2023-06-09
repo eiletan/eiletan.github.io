@@ -14,7 +14,7 @@
                 "modalContent": "A personal project built with React and Electron, NHLElectron is a desktop application which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Below the scoreboard is a list of goals scored in the game, each with detailed information about the goal. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend of the application was built using JavaScript and React, and Electron was used to build the application itself.",
                 "modalImages": [
                     "https://raw.githubusercontent.com/eiletan/NHLElectron/main/homepage.PNG",
-                    "https://github.com/eiletan/NHLElectron/blob/main/gamepage.PNG"
+                    "https://raw.githubusercontent.com/eiletan/NHLElectron/main/gamepage.PNG"
                 ]
             },
             {
@@ -25,9 +25,13 @@
                 "modalContent": "A personal project built with JavaScript, HTML, and CSS, NHLChrome is a chrome extension which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend was built with JavaScript, HTML, and CSS. The Chrome API was used to handle the backend. NHLChrome is the predecessor of NHLElectron.",
                 "modalImages": [
                     "https://raw.githubusercontent.com/eiletan/NHLChrome/main/homepage.PNG",
-                    "https://github.com/eiletan/NHLChrome/blob/main/gamepage.PNG"
+                    "https://raw.githubusercontent.com/eiletan/NHLChrome/main/gamepage.PNG"
                 ]
             }
         ]
+    },
+    "hobbiesSection": {
+        "title": "Hobbies!",
+        "content": "In my spare time, I like watching the Canucks, playing the piano, playing video games, and playing badminton! I've completed piano up to RCM's Level 10, and have taken badminton lessons."
     }
 }
