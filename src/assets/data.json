@@ -1,41 +1,71 @@
 {
     "introSection": {
         "title": "Hello And Welcome To My Website!",
-        "content": "Hi there! I'm Nathan, a new alumni of the University Of British Columbia. I graduated with distinction in May 2023 with a Bachelor's of Science in Computer Science. Previously, I've worked at Letus (previously Rentmoola) for about 1.5 years as a Quality Assurance Analyst Intern. My responsibilities included performing manual testing on web applications and APIs, creating test cases, developing and maintaining automated test cases, and performing regression and smoke testing for releases."
+        "content": "Hi there! I'm Nathan, a new alumni of the University Of British Columbia. I graduated with distinction in May 2023 with a Bachelor's of Science in Computer Science. Previously, I've worked at Letus (formerly Rentmoola) for about 1.5 years as a Quality Assurance Analyst Intern. My responsibilities included performing manual testing on web applications and APIs, creating test cases, developing and maintaining automated test cases, and performing regression and smoke testing for releases."
     },
     "projectSection": {
         "title": "Some projects I've worked on!",
         "content": [
             {
                 "title": "NHLElectron",
-                "content": "PERSONAL PROJECT",
-                "image": "https://raw.githubusercontent.com/eiletan/NHLElectron/main/homepage.PNG",
+                "content": "A personal project. Click me!",
+                "image": "nhlelectron1.png",
                 "modalTitle": "NHLElectron",
                 "modalContent": "A personal project built with React and Electron, NHLElectron is a desktop application which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Below the scoreboard is a list of goals scored in the game, each with detailed information about the goal. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend of the application was built using JavaScript and React, and Electron was used to build the application itself.",
                 "modalImages": [
-                    "https://raw.githubusercontent.com/eiletan/NHLElectron/main/homepage.PNG",
-                    "https://raw.githubusercontent.com/eiletan/NHLElectron/main/gamepage.PNG"
+                    "nhlelectron1.png",
+                    "nhlelectron2.png"
                 ]
             },
             {
                 "title": "NHLChrome",
-                "content": "PERSONAL PROJECT",
-                "image": "https://raw.githubusercontent.com/eiletan/NHLChrome/main/homepage.PNG",
+                "content": "A personal project. Click me!",
+                "image": "nhlchrome1.png",
                 "modalTitle": "NHLChrome",
                 "modalContent": "A personal project built with JavaScript, HTML, and CSS, NHLChrome is a chrome extension which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend was built with JavaScript, HTML, and CSS. The Chrome API was used to handle the backend. NHLChrome is the predecessor of NHLElectron.",
                 "modalImages": [
-                    "https://raw.githubusercontent.com/eiletan/NHLChrome/main/homepage.PNG",
-                    "https://raw.githubusercontent.com/eiletan/NHLChrome/main/gamepage.PNG"
+                    "nhlchrome1.png",
+                    "nhlchrome2.png"
                 ]
             },
             {
                 "title": "Pseudo Site Blocker",
-                "content": "PERSONAL PROJECT",
-                "image": "https://raw.githubusercontent.com/eiletan/Pseudo-Site-Blocker/master/Extension.png",
-                "modalTitle": "NHLChrome",
+                "content": "A personal project. Click me!",
+                "image": "pseudositeblocker1.png",
+                "modalTitle": "Pseudo Site Blocker",
+                "modalContent": "",
+                "modalImages": [
+                    "pseudositeblocker1.png"
+                ]
+            },
+            {
+                "title": "Safe Cracker",
+                "content": "An academic project for CPSC 447. Click me!",
+                "image": "safecracker1.png",
+                "modalTitle": "Safe Cracker",
+                "modalContent": "",
+                "modalImages": [
+                    "safecracker1.png"
+                ]
+            },
+            {
+                "title": "Walmart Mario Maker",
+                "content": "An academic project for CPSC 410. Click me!",
+                "image": "walmartmariomaker1.png",
+                "modalTitle": "Walmart Mario Maker",
+                "modalContent": "",
+                "modalImages": [
+                    "walmartmariomaker1.png"
+                ]
+            },
+            {
+                "title": "Pyead Crab",
+                "content": "An academic project for CPSC 410. Click me!",
+                "image": "pyeadcrab1.png",
+                "modalTitle": "Pyead Crab ",
                 "modalContent": "A personal project built with JavaScript, HTML, and CSS, NHLChrome is a chrome extension which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend was built with JavaScript, HTML, and CSS. The Chrome API was used to handle the backend. NHLChrome is the predecessor of NHLElectron.",
                 "modalImages": [
-                    "https://raw.githubusercontent.com/eiletan/Pseudo-Site-Blocker/master/Extension.png"
+                    "pyeadcrab1.png"
                 ]
             }
         ]

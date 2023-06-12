@@ -19,7 +19,7 @@ function App() {
 
   function previewCardAsContent(data) {
     let cards = data.map((d,i) => {
-      let img = <img className="previewCardImage" src={d["image"]}></img>;
+      let img = <img className="previewCardImage" src={require(`./assets/${d["image"]}`)}></img>;
       let content = <p className="text">{d["content"]}</p>;
       let container = <div className="generalFlexContainer">{img}{content}</div>
       return <Card cname="contentCardContainer" title={d["title"]} content={container} key={i} id={i}></Card>

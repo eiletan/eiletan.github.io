@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Card.css';
-// A section of the website, content is contained in these card components
+// A container for content, with a title and content section
 // Pass in content with the key "content".
 // Pass in title with the key "title"
 
