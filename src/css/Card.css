@@ -31,3 +31,8 @@
 .contentTitle {
     background-color: #6495ED;
 }
+
+
+.modalContentContainer {
+    width: 100%;
+}
