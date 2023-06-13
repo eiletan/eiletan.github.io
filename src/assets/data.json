@@ -9,7 +9,7 @@
             {
                 "title": "NHLElectron",
                 "content": "A personal project. Click me!",
-                "image": "nhlelectron1.png",
+                "image": "nhlelectron1test.png",
                 "modalTitle": "NHLElectron",
                 "modalContent": "A personal project built with React and Electron, NHLElectron is a desktop application which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Below the scoreboard is a list of goals scored in the game, each with detailed information about the goal. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend of the application was built using JavaScript and React, and Electron was used to build the application itself.",
                 "modalImages": [
@@ -20,7 +20,7 @@
             {
                 "title": "NHLChrome",
                 "content": "A personal project. Click me!",
-                "image": "nhlchrome1.png",
+                "image": "nhlchrome1test.png",
                 "modalTitle": "NHLChrome",
                 "modalContent": "A personal project built with JavaScript, HTML, and CSS, NHLChrome is a chrome extension which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend was built with JavaScript, HTML, and CSS. The Chrome API was used to handle the backend. NHLChrome is the predecessor of NHLElectron.",
                 "modalImages": [
@@ -31,7 +31,7 @@
             {
                 "title": "Pseudo Site Blocker",
                 "content": "A personal project. Click me!",
-                "image": "pseudositeblocker1.png",
+                "image": "pseudositeblocker1test.png",
                 "modalTitle": "Pseudo Site Blocker",
                 "modalContent": "",
                 "modalImages": [
@@ -41,7 +41,7 @@
             {
                 "title": "Safe Cracker",
                 "content": "An academic project for CPSC 447. Click me!",
-                "image": "safecracker1.png",
+                "image": "safecracker1test.png",
                 "modalTitle": "Safe Cracker",
                 "modalContent": "",
                 "modalImages": [
@@ -51,7 +51,7 @@
             {
                 "title": "Walmart Mario Maker",
                 "content": "An academic project for CPSC 410. Click me!",
-                "image": "walmartmariomaker1.png",
+                "image": "walmartmariomaker1test.png",
                 "modalTitle": "Walmart Mario Maker",
                 "modalContent": "",
                 "modalImages": [
@@ -61,7 +61,7 @@
             {
                 "title": "Pyead Crab",
                 "content": "An academic project for CPSC 410. Click me!",
-                "image": "pyeadcrab1.png",
+                "image": "pyeadcrab1test.png",
                 "modalTitle": "Pyead Crab ",
                 "modalContent": "A personal project built with JavaScript, HTML, and CSS, NHLChrome is a chrome extension which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend was built with JavaScript, HTML, and CSS. The Chrome API was used to handle the backend. NHLChrome is the predecessor of NHLElectron.",
                 "modalImages": [

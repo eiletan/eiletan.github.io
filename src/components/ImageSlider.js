@@ -31,7 +31,7 @@ export default function ImageSlider(props) {
     return (
         <div className="imageSliderContainer">
             {props.images.map((img,i) => {
-                return <img className="imageSliderImage" src={img} style={{display: imageIndex == i ? "inline" : "none"}} key={i}></img>
+                return <img className="imageSliderImage" src={require(`../assets/${img}`)} style={{display: imageIndex == i ? "inline" : "none"}} key={i}></img>
             })}
             <p className="imageSliderCounter">{`${imageIndex+1}/${props.images.length}`}</p>
             <button className="imageSliderButton buttonLeft" onClick={() => changeImage(-1)}>&#10094;</button>
