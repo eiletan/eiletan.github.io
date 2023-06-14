@@ -1,4 +1,4 @@
-import {React, useState} from 'react';
+import {React, useState, useEffect} from 'react';
 import '../css/ImageSlider.css';
 
 // An image slider component
@@ -7,6 +7,11 @@ import '../css/ImageSlider.css';
 
 export default function ImageSlider(props) {
     const [imageIndex, setImageIndex] = useState(0);
+
+
+    useEffect(() => {
+        setImageIndex(0);
+    }, [props.images])
 
     // Dir is an integer; values above 0 represent right direction, values below 0 represent left direction
     function changeImage(dir) {
