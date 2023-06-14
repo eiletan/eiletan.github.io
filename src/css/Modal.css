@@ -1,11 +1,15 @@
 .modalContainer {
-    width: 80%;
+    width: 30%;
+    height: 50%;
     margin: 0 auto;
     display: none;
     position: fixed;
     z-index: 1;
     left: 50%;
     top: 0;
-    transform: translate(-50%,0%);
+    transform: translate(-50%,0);
+}
+
+.modalContentContainer {
     overflow: auto;
 }
