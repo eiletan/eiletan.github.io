@@ -19,7 +19,6 @@ export default function HomePage() {
 
     // Pass this handler to the preview card components, they include the content they receive from props and send it to the modal state
     function previewCardClick(id) {
-        console.log(id);
         setModalActive(true);
         setModalContent(projectSection["content"][id]);    
     }
@@ -48,7 +47,9 @@ export default function HomePage() {
     function modalCardAsContent(data) {
         let imgSlider = <ImageSlider images={data["modalImages"]}></ImageSlider>;
         let content = <p className="text">{data["modalContent"]}</p>;
-        let container = <div className="generalColumnFlexContainer">{imgSlider}{content}</div>;
+        let closeButton = <button className="button closeButton" onClick={closeModal}>Close</button>;
+        let buttonContainer = <div className="buttonContainer">{closeButton}</div>;
+        let container = <div className="generalColumnFlexContainer">{imgSlider}{content}{buttonContainer}</div>;
         return container;
     }
 
