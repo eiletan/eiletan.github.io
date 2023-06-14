@@ -15,24 +15,31 @@
 .title {
     border-bottom: 2px solid #708090;
     background-color: #FFE4B5;
-    /* height: 10%; */
 }
+
 
 .text {
     padding: 10px;
+}
+
+.contentTitle {
+    background-color: #BDB76B;
 }
 
 
 .contentCardContainer {
     width: 15%;
     margin: 50px;
+    background-color: #E0FFFF;
+    overflow: auto;
 }
 
-.contentTitle {
-    background-color: #6495ED;
-}
 
+.modalTitle {
+    background-color: #90EE90;
+}
 
 .modalContentContainer {
     width: 100%;
+    overflow: auto;
 }

@@ -10,7 +10,7 @@ import '../css/Card.css';
 export default function Modal(props) {
     return (
         <div id="modal" className="modalContainer" style={{display: props.active ? "block" : "none"}}>
-            <Card cname="modalContentContainer" title={props.title} content={props.content}></Card>
+            <Card cname="modalContentContainer" titlecname="modalTitle" title={props.title} content={props.content}></Card>
         </div>
     )
 }
