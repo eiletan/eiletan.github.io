@@ -1,3 +1,6 @@
+@import "App.css";
+
+
 .cardContainer {
     position: relative;
     display: flex;
@@ -15,6 +18,8 @@
 .title {
     border-bottom: 2px solid #708090;
     background-color: #FFE4B5;
+    font-family: var(--appFont);
+    font-size: calc(var(--appMinFontSize) + var(--appFontSize));
 }
 
 
@@ -42,4 +47,5 @@
 .modalContentContainer {
     width: 100%;
     overflow: auto;
+    background-color: #E6E6FA;
 }
