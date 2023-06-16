@@ -22,7 +22,7 @@
 
 .text {
     padding: 10px;
-    text-align: center;
+    text-align: left;
     margin: 10px;
     font-family: var(--appFont);
     font-size: calc(var(--appMinFontSize) + var(--appFontSize));
