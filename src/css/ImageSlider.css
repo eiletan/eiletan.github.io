@@ -19,7 +19,20 @@
 .imageSliderButton {
     position: absolute;
     top: 50%;
+    color: white;
+    font-size: calc(var(--appMinFontSize) + var(--appFontSize));
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    cursor: pointer;
 }
+
+.imageSliderButton:hover {
+    color: black;
+    font-size: calc(var(--appMinFontSize) + var(--appFontSize));
+    background-color: rgba(255,255,255,0.5);
+}
+
+
 
 .buttonLeft {
     left: 0%;
