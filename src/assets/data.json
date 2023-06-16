@@ -85,6 +85,17 @@
                     "pyeadcrab3.png",
                     "pyeadcrab2.png"
                 ]
+            },
+            {
+                "id": 6,
+                "title": "This Website",
+                "content": "A personal project. Click me!",
+                "image": "eiletanwebsite1.png",
+                "modalTitle": "This Website",
+                "modalContent": "A personal project built with React, JavaScript, and CSS, this website is intended to serve as a personal website showcasing my projects and a little bit about myself!",
+                "modalImages": [
+                    "eiletanwebsite2.png"
+                ]
             }
         ]
     },
