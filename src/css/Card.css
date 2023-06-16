@@ -39,6 +39,11 @@
     overflow: auto;
 }
 
+.contentCardContainer:hover {
+    cursor: pointer;
+    border: 5px solid teal;
+}
+
 
 .modalTitle {
     background-color: #90EE90;
