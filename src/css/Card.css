@@ -1,0 +1,59 @@
+@import "App.css";
+
+
+.cardContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    width: 95%;
+    height: auto;
+    margin: 50px auto;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: 5px 5px gray;
+}
+
+.title {
+    border-bottom: 2px solid #708090;
+    background-color: #FFE4B5;
+    font-family: var(--appFont);
+    font-size: calc(var(--appMinFontSize) + var(--appFontSize));
+}
+
+.cardTitle {
+    text-align: center;
+}
+
+.text {
+    padding: 10px;
+}
+
+.contentTitle {
+    background-color: #BDB76B;
+}
+
+
+.contentCardContainer {
+    width: 15%;
+    margin: 50px;
+    background-color: #E0FFFF;
+    overflow: auto;
+}
+
+.contentCardContainer:hover {
+    cursor: pointer;
+    border: 5px solid teal;
+}
+
+
+.modalTitle {
+    background-color: #90EE90;
+}
+
+.modalContentContainer {
+    width: 100%;
+    overflow: auto;
+    background-color: #E6E6FA;
+}

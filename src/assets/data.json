@@ -1,0 +1,106 @@
+{
+    "introSection": {
+        "title": "Hello!",
+        "content": "Hi there! I'm Nathan, a new alumni of the University Of British Columbia. I graduated with distinction in May 2023 with a Bachelor's of Science in Computer Science. Previously, I've worked at Letus (formerly Rentmoola) for about 1.5 years as a Quality Assurance Analyst Intern. My responsibilities included performing manual testing on web applications and APIs, creating test cases, developing and maintaining automated test cases, and performing regression and smoke testing for releases."
+    },
+    "projectSection": {
+        "title": "Some projects I've worked on!",
+        "content": [
+            {
+                "id": 0,
+                "title": "NHLElectron",
+                "content": "A personal project. Click me!",
+                "image": "nhlelectron1.png",
+                "modalTitle": "NHLElectron",
+                "modalContent": "A personal project built with React and Electron, NHLElectron is a desktop application which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Below the scoreboard is a list of goals scored in the game, each with detailed information about the goal. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend of the application was built using JavaScript and React, and Electron was used to build the application itself. For more information, see: https://github.com/eiletan/NHLElectron",
+                "modalImages": [
+                    "nhlelectron5.png",
+                    "nhlelectron2.png",
+                    "nhlelectron3.png",
+                    "nhlelectron4.png"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "NHLChrome",
+                "content": "A personal project. Click me!",
+                "image": "nhlchrome1.png",
+                "modalTitle": "NHLChrome",
+                "modalContent": "A personal project built with JavaScript, HTML, and CSS, NHLChrome is a chrome extension which delivers real time notifications for NHL games. Using the NHL API, it grabs the list of games for the current day, allowing users to choose which game they want to receive updates for. They are then brought to the \"Game Page\", where detailed information about the game is displayed. This page consists of a scoreboard which displays the time, goals, shots on goal, and powerplay/empty net status for each team. If it is a playoff game, the playoff round and series status is also displayed. Whenever a team scores, the scoring team's goal horn is played, and a desktop notification with the details of the goal is displayed. The frontend was built with JavaScript, HTML, and CSS. The Chrome API was used to handle the backend. NHLChrome is the predecessor of NHLElectron. For more information, see: https://github.com/eiletan/NHLChrome",
+                "modalImages": [
+                    "nhlchrome5.png",
+                    "nhlchrome2.png",
+                    "nhlchrome3.png",
+                    "nhlchrome4.png"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Pseudo Site Blocker",
+                "content": "A personal project. Click me!",
+                "image": "pseudositeblocker1.png",
+                "modalTitle": "Pseudo Site Blocker",
+                "modalContent": "A personal project built with JavaScript, HTML, and CSS, Pseudo Site Blocker is a chrome extension which aims to boost productivity by blocking user input websites. Users can manually input websites to block, and clear all blocked sites. Pseudo Site Blocker uses the Chrome API and JavaScript to “block” websites by reducing opacity, disabling mouse clicks, and disabling scrolling. At any time, users can choose to toggle blocking, allowing them to turn the blocking on or off without having to input all the websites over and over again. The UI displays the currently blocked sites as well as the blocking status. JavaScript, HTML, and CSS were used to build the UI, while JavaScript and the Chrome API were used to handle the backend. Pseudo Site Blocker was one of my first personal projects with JavaScript, HTML, and CSS. For more information, see: https://github.com/eiletan/Pseudo-Site-Blocker",
+                "modalImages": [
+                    "pseudositeblocker3.png",
+                    "pseudositeblocker2.png"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Safe Cracker",
+                "content": "An academic project for UBC CPSC 447. Click me!",
+                "image": "safecracker1.png",
+                "modalTitle": "Safe Cracker",
+                "modalContent": "An academic project developed in collaboration with 2 other team members for UBC’s CPSC 447 (Introduction To Visualization), Safe Cracker is a visualization showing information about password security and statistics around the globe. Built with JavaScript, D3.js, and CSS, Safe Cracker consists of four visualizations, each one showing different aspects of password security. The first one is a choropleth map showing the average time to crack passwords in each country using color; hovering over a country shows a tooltip with the exact average time. Clicking on a country filters the data for the remaining three visualizations. The second visualization is a lollipop graph showing the top 10, 25, or 50 passwords in the selected country against their user counts. Hovering over a password will show a tooltip with the password, average time to crack, and user count. Clicking on a password will highlight/unhighlight it, as well as highlight/unhighlight it in the fourth visualization. The third visualization is a boxplot showing user counts for each type of password in the selected country (Alphabetical, Numerical, or Mixed). Clicking on a box will filter the second and fourth visualizations by that type of password. The fourth visualization is a dot plot histogram hybrid, with each bin containing dots representing passwords against time to crack. Hovering over a bin shows a tooltip with the bin’s range of time to crack, and hovering over a password will show the password, time to crack, and user count. Clicking on a password will highlight/unhighlight it, as well as highlight/unhighlight it in the second visualization. For more information, see: https://github.com/eiletan/SafeCracker. The completed visualization can also be viewed here: https://liand.dev/SafeCracker.",
+                "modalImages": [
+                    "safecracker5.png",
+                    "safecracker2.png",
+                    "safecracker3.png",
+                    "safecracker4.png"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Walmart Mario Maker",
+                "content": "An academic project for UBC CPSC 410. Click me!",
+                "image": "walmartmariomaker1.png",
+                "modalTitle": "Walmart Mario Maker",
+                "modalContent": "An academic project developed in collaboration with 4 other team members for UBC’s CPSC 410 (Advanced Software Engineering), Walmart Mario Maker is a platformer game where users can create their own platformer games and play them. Built with TypeScript, JavaScript, ANTLR4TS, React, and CSS, Walmart Mario Maker uses a domain specific language that we designed in order to facilitate the creation of custom platformer games. With our DSL, levels, platforms, terrain, enemies, doors, buttons, and coins can be created and connected to each other. Our DSL is very flexible, allowing enemy behavior, appearance, and speed to be customized. Additionally, the appearance of doors, platforms, and coins can be customized as well. Users can also specify win conditions (Ex. collect a certain amount of coins to open the final door) as well. The frontend was built with React, JavaScript, and CSS, while the backend was built with TypeScript and ANTLR4TS, which was used to process the DSL code. For more information and documentation, see: https://github.com/eiletan/Walmart-Mario-Maker. We had a little fun with this one!",
+                "modalImages": [
+                    "walmartmariomaker5.png",
+                    "walmartmariomaker2.png",
+                    "walmartmariomaker3.png",
+                    "walmartmariomaker4.png"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Pyead Crab",
+                "content": "An academic project for UBC CPSC 410. Click me!",
+                "image": "pyeadcrab1.png",
+                "modalTitle": "Pyead Crab ",
+                "modalContent": "An academic project developed in collaboration with 4 other team members (The same team as Walmart Mario Maker) for UBC’s CPSC 410 (Advanced Software Engineering), Pyead Crab is a code analysis tool capable of static and dynamic analysis on Python programs. Built with Python, JavaScript, React, and CSS, Pyead Crab takes in a Python program and performs static and dynamic analysis on it, identifying connected pieces of code and using Markov Chains to predict the likelihood of a function being called. After the analysis is performed, a force graph is generated in the UI where each node is a function and edges represent function calls. The size of each node is proportional to the amount of times it is called. For dynamic analysis, clicking on a node will highlight relevant nodes and edges and display more information on the side. This information includes the function name, class or module the function belongs to, any parameters it takes, number of calls, and predictions of what functions it will call. The backend was built with Python, while the frontend was built with React, JavaScript, and CSS. For more information and documentation, see: https://github.com/eiletan/PyeadCrab",
+                "modalImages": [
+                    "pyeadcrab3.png",
+                    "pyeadcrab2.png"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "This Website",
+                "content": "A personal project. Click me!",
+                "image": "eiletanwebsite1.png",
+                "modalTitle": "This Website",
+                "modalContent": "A personal project built with React, JavaScript, and CSS, this website is intended to serve as a personal website showcasing my projects and a little bit about myself!",
+                "modalImages": [
+                    "eiletanwebsite2.png"
+                ]
+            }
+        ]
+    },
+    "hobbiesSection": {
+        "title": "Hobbies!",
+        "content": "In my spare time, I like watching the Canucks, playing the piano, playing video games, and playing badminton! I've completed piano up to RCM's Level 10, and have taken badminton lessons. Some of my favorite movies include La La Land, Into the Spider-Verse, and Rogue One! Some of my favorite games are Jedi Fallen Order, Overwatch 1, Ace Combat 7, and Valorant!"
+    }
+}
