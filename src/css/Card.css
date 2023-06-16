@@ -22,6 +22,9 @@
     font-size: calc(var(--appMinFontSize) + var(--appFontSize));
 }
 
+.cardTitle {
+    text-align: center;
+}
 
 .text {
     padding: 10px;

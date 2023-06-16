@@ -4,6 +4,12 @@
     --appMinFontSize: 10px;
 }
 
+
+#root {
+    background: linear-gradient(110deg, #6495ED 50%, #FFA500 50%); 
+    border: 0.1px solid transparent;
+}
+
 .generalFlexContainer {
     position: relative;
     display: flex;
@@ -48,3 +54,4 @@
 .button:hover {
     background-color: tomato;
 }
+
