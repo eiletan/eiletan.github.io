@@ -40,6 +40,7 @@
     margin: 50px;
     background-color: #E0FFFF;
     overflow: auto;
+    min-width: 150px;
 }
 
 .contentCardContainer:hover {
