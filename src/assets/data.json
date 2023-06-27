@@ -48,6 +48,17 @@
             },
             {
                 "id": 3,
+                "title": "This Website",
+                "content": "A personal project. Click me!",
+                "image": "eiletanwebsite1.png",
+                "modalTitle": "This Website",
+                "modalContent": "A personal project built with React, JavaScript, and CSS, this website is intended to serve as a personal website showcasing my projects and a little bit about myself!",
+                "modalImages": [
+                    "eiletanwebsite2.png"
+                ]
+            },
+            {
+                "id": 4,
                 "title": "Safe Cracker",
                 "content": "An academic project for UBC CPSC 447. Click me!",
                 "image": "safecracker1.png",
@@ -61,7 +72,7 @@
                 ]
             },
             {
-                "id": 4,
+                "id": 5,
                 "title": "Walmart Mario Maker",
                 "content": "An academic project for UBC CPSC 410. Click me!",
                 "image": "walmartmariomaker1.png",
@@ -75,7 +86,7 @@
                 ]
             },
             {
-                "id": 5,
+                "id": 6,
                 "title": "Pyead Crab",
                 "content": "An academic project for UBC CPSC 410. Click me!",
                 "image": "pyeadcrab1.png",
@@ -84,17 +95,6 @@
                 "modalImages": [
                     "pyeadcrab3.png",
                     "pyeadcrab2.png"
-                ]
-            },
-            {
-                "id": 6,
-                "title": "This Website",
-                "content": "A personal project. Click me!",
-                "image": "eiletanwebsite1.png",
-                "modalTitle": "This Website",
-                "modalContent": "A personal project built with React, JavaScript, and CSS, this website is intended to serve as a personal website showcasing my projects and a little bit about myself!",
-                "modalImages": [
-                    "eiletanwebsite2.png"
                 ]
             }
         ]
