@@ -45,7 +45,7 @@
 
 .contentCardContainer:hover {
     cursor: pointer;
-    border: 5px solid teal;
+    color: blue;
 }
 
 
