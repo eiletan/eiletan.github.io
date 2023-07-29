@@ -7,16 +7,19 @@
     flex-direction: column;
     flex-wrap: wrap;
     border-radius: 7px;
-    width: 95%;
+    max-width: 95%;
     height: auto;
     margin: 50px auto;
     overflow: auto;
     background-color: aliceblue;
     box-shadow: 5px 5px gray;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .title {
     border-bottom: 2px solid #708090;
+    
     background-color: #FFE4B5;
     font-family: var(--appFont);
     font-size: calc(var(--appMinFontSize) + var(--appFontSize));
@@ -36,7 +39,7 @@
 
 
 .contentCardContainer {
-    width: 15%;
+    max-width: 25%;
     margin: 50px;
     background-color: #E0FFFF;
     overflow: auto;

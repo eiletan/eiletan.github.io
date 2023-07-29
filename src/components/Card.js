@@ -9,7 +9,7 @@ import '../css/Card.css';
 
 export default function Card(props) {
     return (
-        <div className={props.cname ? `cardContainer ${props.cname}` : "cardContainer"} onClick={props.clickHandler ? () => {props.clickHandler(props.id)} : null}>
+        <div className={props.cname ? `container cardContainer ${props.cname}` : "container cardContainer"} onClick={props.clickHandler ? () => {props.clickHandler(props.id)} : null}>
             {props.title &&
                 <div className={props.titlecname ? `cardflexitem title ${props.titlecname}` : `cardflexitem title`}>
                     <p className="cardTitle text">{props.title}</p>
