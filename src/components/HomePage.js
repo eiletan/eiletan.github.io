@@ -39,9 +39,13 @@ export default function HomePage() {
             let img = <img className="previewCardImage" src={require(`../assets/${d["image"]}`)}></img>;
             let content = <p className="text">{d["content"]}</p>;
             let container = <div className="generalFlexContainer">{img}{content}</div>
-            return <Card cname="contentCardContainer" titlecname="contentTitle" title={d["title"]} content={container} key={i} id={d["id"]} clickHandler={previewCardClick}></Card>
-        })
-        return cards;
+            let card = <Card cname="contentCardContainer" titlecname="contentTitle" title={d["title"]} content={container} key={i} id={d["id"]} clickHandler={previewCardClick}></Card>
+            let nestedCol = <div className="col-sm-4">{card}</div>;
+            return nestedCol;
+        });
+
+        let row = <div className="row justify-content-center">{cards}</div>
+        return row;
     }
 
     function modalCardAsContent(data) {
@@ -57,9 +61,23 @@ export default function HomePage() {
 
     return (
         <div className="homePageContainer">
-            <Card cname="intro" title={introSection["title"]} content={textAsContent(introSection["content"])}></Card>
-            <Card cname="project" title={projectSection["title"]} content={<div className="generalFlexContainer">{previewCardAsContent(projectSection["content"])}</div>}></Card>
-            <Card cname="hobbies" title={hobbiesSection["title"]} content={textAsContent(hobbiesSection["content"])}></Card>
+            <div className="row">
+                <div className="col">
+                    <Card cname="intro" title={introSection["title"]} content={textAsContent(introSection["content"])}></Card>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <Card cname="project" title={projectSection["title"]} content={<div className="generalFlexContainer">{previewCardAsContent(projectSection["content"])}</div>}></Card>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <Card cname="hobbies" title={hobbiesSection["title"]} content={textAsContent(hobbiesSection["content"])}></Card>
+                </div>
+            </div>
+                
+            
             <Modal active={isModalActive} title={modalContent["modalTitle"]} content={modalCardAsContent(modalContent)}></Modal>
         </div>
     )
