@@ -39,11 +39,10 @@
 
 
 .contentCardContainer {
+    width: 80%;
     background-color: #E0FFFF;
     overflow: auto;
-    border: 1px solid black;
-    box-shadow: none;
-    
+    box-shadow: 2.5px 2.5px gray;
 }
 
 .contentCardContainer:hover {
