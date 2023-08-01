@@ -7,12 +7,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     border-radius: 7px;
-    width: 95%;
+    max-width: 95%;
     height: auto;
     margin: 50px auto;
     overflow: auto;
+    overflow-x: hidden;
     background-color: aliceblue;
     box-shadow: 5px 5px gray;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .title {
@@ -36,11 +39,10 @@
 
 
 .contentCardContainer {
-    width: 15%;
-    margin: 50px;
+    width: 80%;
     background-color: #E0FFFF;
     overflow: auto;
-    min-width: 150px;
+    box-shadow: 2.5px 2.5px gray;
 }
 
 .contentCardContainer:hover {
