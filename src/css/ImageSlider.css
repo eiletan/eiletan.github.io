@@ -1,7 +1,10 @@
 .imageSliderContainer {
     position: relative;
     margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
 
 .imageSliderImage {
     width: 100%;

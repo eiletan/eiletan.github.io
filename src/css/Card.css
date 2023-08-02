@@ -51,12 +51,18 @@
 }
 
 
-.modalTitle {
+.projectPageCardTitle {
     background-color: #90EE90;
 }
 
-.modalContentContainer {
-    width: 100%;
-    overflow: auto;
+.projectPageCardContainer {
+    min-width: 331px;
+    width: 35%;
     background-color: #E6E6FA;
 }
+
+@media (max-width: 600px) {
+    .projectPageCardContainer {
+        width: 95%;
+    }
+  }
