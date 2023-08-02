@@ -8,6 +8,7 @@ import '../css/Card.css';
 // Pass in an optional click handler with the key "clickHandler", this handler will always return the id of the content it contains
 
 export default function Card(props) {
+
     return (
         <div className={props.cname ? `container cardContainer ${props.cname}` : "container cardContainer"} onClick={props.clickHandler ? () => {props.clickHandler(props.id)} : null}>
             {props.title &&
@@ -17,7 +18,14 @@ export default function Card(props) {
                     
             }
             
-            {props.content ? props.content : "No content available"}
+            {props.content 
+                ? props.content 
+                : <div className="generalColumnFlexContainer">
+                        <p className="text errorText">
+                            {"An error has occurred."}
+                        </p>
+                  </div>
+            }
             
         </div>
     )

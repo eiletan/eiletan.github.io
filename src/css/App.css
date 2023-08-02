@@ -1,9 +1,14 @@
 :root {
     --appFont: "Pragati Narrow", sans-serif;
-    --appFontSize: 1em;
+    --appFontSize: 1rem;
     --appMinFontSize: 5px;
 }
 
+html, body, #root, .App {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
 
 #root {
     background: linear-gradient(110deg, #6495ED 50%, #FFA500 50%); 
