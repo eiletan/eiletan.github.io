@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc434db5.css",
-    "main.js": "/static/js/main.9b8c7a03.js",
+    "main.css": "/static/css/main.084a0cf8.css",
+    "main.js": "/static/js/main.66b857c5.js",
     "static/js/787.19cbcf92.chunk.js": "/static/js/787.19cbcf92.chunk.js",
     "static/media/nhlchrome4.png": "/static/media/nhlchrome4.6d47ba7d2a483f2a05a1.png",
     "static/media/walmartmariomaker4.png": "/static/media/walmartmariomaker4.7cd0699565229ec5b2fe.png",
@@ -31,14 +31,13 @@
     "static/media/pyeadcrab2.png": "/static/media/pyeadcrab2.989b56b6282f6cb368ab.png",
     "static/media/walmartmariomaker2.png": "/static/media/walmartmariomaker2.281a811099bfd89d7908.png",
     "static/media/pseudositeblocker2.png": "/static/media/pseudositeblocker2.c49b2c04b9d935dabf48.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.dc434db5.css.map": "/static/css/main.dc434db5.css.map",
-    "main.9b8c7a03.js.map": "/static/js/main.9b8c7a03.js.map",
+    "main.084a0cf8.css.map": "/static/css/main.084a0cf8.css.map",
+    "main.66b857c5.js.map": "/static/js/main.66b857c5.js.map",
     "787.19cbcf92.chunk.js.map": "/static/js/787.19cbcf92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc434db5.css",
-    "static/js/main.9b8c7a03.js"
+    "static/css/main.084a0cf8.css",
+    "static/js/main.66b857c5.js"
   ]
 }
