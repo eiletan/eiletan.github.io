@@ -1,6 +1,6 @@
 :root {
     --appFont: "Pragati Narrow", sans-serif;
-    --appFontSize: 1rem;
+    --appFontSize: 1em;
     --appMinFontSize: 5px;
 }
 
