@@ -15,7 +15,6 @@ export default function Project(props) {
     const [projectData, setProjectData] = useState(null); 
 
     useEffect(()=> {
-        console.log(data);
         if (data) {
             setProjectData(data);
         }
