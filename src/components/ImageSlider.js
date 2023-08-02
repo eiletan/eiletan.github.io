@@ -34,7 +34,7 @@ export default function ImageSlider(props) {
     }
 
     return (
-        <div className="imageSliderContainer">
+        <div className="container imageSliderContainer">
             {props.images.map((img,i) => {
                 return <img className="imageSliderImage" src={require(`../assets/${img}`)} style={{display: imageIndex == i ? "inline" : "none"}} key={i}></img>
             })}

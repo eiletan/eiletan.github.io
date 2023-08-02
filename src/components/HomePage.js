@@ -1,9 +1,11 @@
 import {React, useState, useEffect} from 'react';
+import {useNavigate} from "react-router-dom";
 import '../css/HomePage.css';
 
 import Card from './Card';
 import ImageSlider from './ImageSlider';
 import Modal from './Modal';
+
 
 
 const websiteData = require('../assets/data.json');
@@ -12,15 +14,16 @@ let projectSection = websiteData["projectSection"];
 let hobbiesSection = websiteData["hobbiesSection"];
 
 export default function HomePage() {
-
+    const navigate = useNavigate();
     const [isModalActive, setModalActive] = useState(false);
     const [modalContent, setModalContent] = useState(projectSection["content"][0]);
 
 
     // Pass this handler to the preview card components, they include the content they receive from props and send it to the modal state
     function previewCardClick(id) {
-        setModalActive(true);
-        setModalContent(projectSection["content"][id]);    
+        // setModalActive(true);
+        // setModalContent(projectSection["content"][id]);
+        navigate('/project', {state: {data: projectSection["content"][id]}});
     }
 
     function closeModal() {
@@ -76,8 +79,7 @@ export default function HomePage() {
                     <Card cname="hobbies" title={hobbiesSection["title"]} content={textAsContent(hobbiesSection["content"])}></Card>
                 </div>
             </div>
-                
-            
+
             <Modal active={isModalActive} title={modalContent["modalTitle"]} content={modalCardAsContent(modalContent)}></Modal>
         </div>
     )
