@@ -1,25 +1,22 @@
 import './css/App.css';
 import HomePage from './components/HomePage';
 import Project from './components/Project';
-import Error from './components/Error';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider
 } from "react-router-dom";
 
 function App() {
 
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
-      element: <HomePage></HomePage>,
-      errorElement: <Error />
+      element: <HomePage></HomePage>
     },
     {
       path: "project",
-      element: <Project />,
-      errorElement: <Error />
+      element: <Project />
     }
   ]);
 
