@@ -51,7 +51,7 @@ export default function Project(props) {
         <div className="projectContainer">
             <div className="row justify-content-center">
                 <div className="col">
-                    <Card title={projectData?.["modalTitle"] ? projectData["modalTitle"] : "An error has occurred" } content={initContent(projectData)}></Card>
+                    <Card cname="projectPageCardContainer" titlecname="projectPageCardTitle" title={projectData?.["modalTitle"] ? projectData["modalTitle"] : "An error has occurred" } content={initContent(projectData)}></Card>
                 </div>
             </div>
             <div className="row justify-content-center">
