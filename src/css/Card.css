@@ -39,7 +39,7 @@
 
 
 .contentCardContainer {
-    width: 80%;
+    width: 30%;
     background-color: #E0FFFF;
     overflow: auto;
     box-shadow: 2.5px 2.5px gray;
@@ -64,5 +64,8 @@
 @media (max-width: 600px) {
     .projectPageCardContainer {
         width: 95%;
+    }
+    .contentCardContainer {
+        width: 90%;
     }
   }

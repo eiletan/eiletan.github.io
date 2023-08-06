@@ -34,12 +34,9 @@ export default function HomePage() {
             let content = <p className="text">{d["content"]}</p>;
             let container = <div className="generalFlexContainer">{img}{content}</div>
             let card = <Card cname="contentCardContainer" titlecname="contentTitle" title={d["title"]} content={container} key={i} id={d["id"]} clickHandler={previewCardClick}></Card>
-            let nestedCol = <div className="col-sm-4">{card}</div>;
-            return nestedCol;
+            return card;
         });
-
-        let row = <div className="row justify-content-center">{cards}</div>
-        return row;
+        return cards;
     }
 
 
