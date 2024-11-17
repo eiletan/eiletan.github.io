@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.60eb80d4.css",
-    "main.js": "/static/js/main.c9c581f5.js",
+    "main.js": "/static/js/main.2247cf0b.js",
     "static/js/787.19cbcf92.chunk.js": "/static/js/787.19cbcf92.chunk.js",
     "static/media/nhlchrome4.png": "/static/media/nhlchrome4.6d47ba7d2a483f2a05a1.png",
     "static/media/walmartmariomaker4.png": "/static/media/walmartmariomaker4.7cd0699565229ec5b2fe.png",
@@ -33,11 +33,11 @@
     "static/media/pseudositeblocker2.png": "/static/media/pseudositeblocker2.c49b2c04b9d935dabf48.png",
     "index.html": "/index.html",
     "main.60eb80d4.css.map": "/static/css/main.60eb80d4.css.map",
-    "main.c9c581f5.js.map": "/static/js/main.c9c581f5.js.map",
+    "main.2247cf0b.js.map": "/static/js/main.2247cf0b.js.map",
     "787.19cbcf92.chunk.js.map": "/static/js/787.19cbcf92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60eb80d4.css",
-    "static/js/main.c9c581f5.js"
+    "static/js/main.2247cf0b.js"
   ]
 }
